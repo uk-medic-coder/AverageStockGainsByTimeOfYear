@@ -4,7 +4,7 @@ As an avid investor, it is often helpful to see seasonality in stocks and stock 
 
 For example - on date X, historically what has this stock done - gone up or gone down.
 
-This handy python utility will download any publically listed stock from Yahoo Finance, aggregate the data, and then look at the percentage gain in price for 5 trading days ahead.
+This handy python utility will download any publically listed stock from Yahoo Finance, aggregate the data, and then look at the percentage gain in price for 5 trading days ahead that is typical for each day of the calendar year.
 
 ## Usage:
 
