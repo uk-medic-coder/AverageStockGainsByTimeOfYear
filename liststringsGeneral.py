@@ -77,9 +77,6 @@ def ReadInAFileToAList(fnuse, LFflag, upperflag):
 # ===============================================
 def searchAStringForAnyOfThese(searchme, findany, makeAllUpperCaseFlag):
     
-    # Search string for csv of these
-    # FKNOLV2 scraper :  leveraged[] search and append
-    
     searchme2 = searchme.upper() if makeAllUpperCaseFlag==1 else searchme
     findanythese = findany.upper() if makeAllUpperCaseFlag==1 else findany
     lst = findanythese.split(",")
@@ -97,12 +94,7 @@ def searchAStringForAnyOfThese(searchme, findany, makeAllUpperCaseFlag):
 # ===============================================
 def listStringAsMenu(lst, startnumber, inputText, defvalue):
     
-    # lst.split(",")   <---- do this before if a string is given
-    
     print ("\n")
-
-    #print(lst)
-    
     i = startnumber
     for x in lst:
         print(str(i)+" = "+x)
